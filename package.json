@@ -1,20 +1,20 @@
 {
-  "name": "name",
-  "displayName": "[name]",
+  "name": "open-git",
+  "displayName": "open-git",
   "version": "0.0.0",
   "publisher": "blairyue",
   "packageManager": "pnpm@6.32.3",
   "description": "",
   "keywords": [],
-  "homepage": "https://github.com/yue7872/[name]#readme",
+  "homepage": "https://github.com/yue7872/open-git#readme",
   "bugs": {
-    "url": "https://github.com/yue7872/[name]/issues"
+    "url": "https://github.com/yue7872/open-git/issues"
   },
   "license": "MIT",
   "author": "blairyue <2258462872@qq.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yue7872/[name]"
+    "url": "https://github.com/yue7872/open-git"
   },
   "main": "./dist/index.js",
   "files": [
@@ -30,6 +30,27 @@
   "activationEvents": [
     "*"
   ],
+  "contributes": {
+    "commands": [
+      {
+        "title": "✨",
+        "command": "open-git"
+      }
+    ],
+    "menus": {
+      "touchBar": [
+        {
+          "command": "open-git"
+        }
+      ],
+      "editor/title": [
+        {
+          "command": "open-git",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
   "icon": "res/icon.png",
   "scripts": {
     "build": "tsup src/index.ts --external vscode",
