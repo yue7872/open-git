@@ -1,7 +1,7 @@
 {
   "name": "open-git",
-  "displayName": "open-git",
-  "version": "0.0.1",
+  "displayName": "open in git",
+  "version": "0.0.2",
   "publisher": "blairyue",
   "packageManager": "pnpm@6.32.3",
   "description": "",
