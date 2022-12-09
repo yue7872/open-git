@@ -1,10 +1,10 @@
 {
   "name": "open-git",
   "displayName": "open in git",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "blairyue",
   "packageManager": "pnpm@6.32.3",
-  "description": "",
+  "description": "open repo in git (快速在浏览器中打开当前项目的 Git 仓库)",
   "keywords": [],
   "homepage": "https://github.com/yue7872/open-git#readme",
   "bugs": {
